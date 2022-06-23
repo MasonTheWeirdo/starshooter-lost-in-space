@@ -15,6 +15,9 @@ function createShip () {
     controller.moveSprite(StarshipSprite, 75, 75)
     StarshipSprite.setStayInScreen(true)
 }
+function MeteorEnemy () {
+	
+}
 sprites.onOverlap(SpriteKind.Projectile, SpriteKind.BossEnemy, function (sprite, otherSprite) {
     otherSprite.destroy(effects.disintegrate, 200)
     info.changeScoreBy(1)
