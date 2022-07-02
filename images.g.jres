@@ -14,11 +14,6 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "StarshipSpriteOne"
     },
-    "image2": {
-        "data": "hwQQABAAAABQIAUCUgBQACBQIFVQAgIAUABVUgUFBQAABQUFUlAAAAACUAJVIAAAAFBVJSBQAAAAAAJVAgUAAAAAUCIiBQAAACIgUiECIgAAEiIVFSIhBVAiIVFREiIFUiUiFRUiAgUABSJRUSJQAlACIBIlAlIAACUAIiJQBQAAUCUlUiUAAA==",
-        "mimeType": "image/x-mkcd-f4",
-        "displayName": "MissileSpriteOne"
-    },
     "image5": {
         "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFUAAAAAAABQVVUAAAAAUFVoWFUAAABViIiGVQAAAIWGhohQAAAAZYiGiFAFAFCFiIiGUAUAUIBoiIhQBQBQAIiGBlAFAFBQgIhQUAAABVBQUFBVAAAFBQUFBQUAAAUFBQUFBQAABVAABQAFAA==",
         "mimeType": "image/x-mkcd-f4",
@@ -28,6 +23,11 @@
         "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQkIAAAAAQFJXJwQAAAACd3d1JAAAAARXd3dFAABAcHV3dUcAACRwd3V3RQIAAldXV3cABAACcHd3dQACAAQAdXV3AAQABFBQAgIARAAAIFAABQBAAABQICUAACAAAFJQUAAAQAQABQIFAAAABA==",
         "mimeType": "image/x-mkcd-f4",
         "displayName": "SmartMeteorSpriteOne"
+    },
+    "image2": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgDAAAAAAAAKAMAAAAAAAAoAwAAAAAAACgDAAAAAAAAKAMAAAAAAAAqsoAAAAAAACqygAAAAAAoKqqDAAAAAAaqqrKAAAAAKChqgwAAAAAAKrKAAAAAAAAoAwAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "MissileSpriteOne"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",

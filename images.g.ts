@@ -164,25 +164,6 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 . . . . . . . . . . 5 a a . . . 
 . . . . . . . . . . . . . . . . 
 `;
-            case "image2":
-            case "MissileSpriteOne":return img`
-. . . . . . . . . . . 2 . . . . 
-5 2 5 . . . . . . . 5 5 . 5 . . 
-. . . 5 2 . . . 2 2 2 5 5 2 5 . 
-2 5 . . . 5 . . 2 1 2 2 . . 2 5 
-5 . 5 5 . 5 2 . . 2 1 2 2 . . 5 
-. 2 5 . 5 5 . 5 2 2 2 2 2 2 . 2 
-2 5 2 5 2 5 5 2 2 5 1 5 1 2 2 5 
-. 5 5 . . 2 5 2 5 1 5 1 5 1 2 2 
-2 . 5 2 5 . 2 2 1 5 1 5 1 5 2 2 
-5 5 . 5 5 2 . 2 2 1 5 1 5 2 2 5 
-. 2 5 . . . 5 5 2 2 2 2 2 2 . 5 
-. . . 5 2 5 . . . 2 1 2 2 . 5 2 
-. 2 5 . . . . . 2 1 2 2 . 2 5 . 
-5 . . . . . . . 2 2 2 . 5 5 . . 
-. . . . . . . . . 5 5 5 2 . . . 
-. . . . . . . . . . . . . . . . 
-`;
             case "image5":
             case "DeathMeteorSpriteOne":return img`
 . . . . . . . . . . . . . . . . 
@@ -219,6 +200,25 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 . . . . . . . 2 4 2 4 4 . . . . 
 . . . . . . . . . . . 4 4 2 4 . 
 . . . . . . . . . . . . . . 4 4 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image2":
+            case "MissileSpriteOne":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . a . . . . 
+. . . . . . . . . . a 1 a . . . 
+. . . . . . . . a a a a 1 a . . 
+. . . a a a a a a a a a a a a . 
+. . . c c c c c a a a a a a c . 
+. . . . . . . . c c a a a c . . 
+. . . . . . . . . . c a c . . . 
+. . . . . . . . . . . c . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `;
         }
