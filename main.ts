@@ -46,7 +46,7 @@ scene.setBackgroundImage(assets.image`GalaxyBackgroundOne`)
 game.showLongText("AVOID AND SHOOT THE METEORS TO WIN", DialogLayout.Center)
 createShip()
 let MeteorSpeed = -100
-MissileCooldown = 500
+MissileCooldown = 650
 game.onUpdateInterval(1000, function () {
     meteor = sprites.create(assets.image`MeteorSpriteOne`, SpriteKind.Enemy)
     DeathMeteor = sprites.create(assets.image`DeathMeteorSpriteOne`, SpriteKind.BossEnemy)
