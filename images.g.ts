@@ -145,25 +145,6 @@ fff5ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8f
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 `;
-            case "image1":
-            case "StarshipSpriteOne":return img`
-. . . . . . . . . . 5 a a . . . 
-. . . . . . . . c c a a . . . . 
-. . . . . . . c c a a c 5 . . . 
-. . . . 2 . . c a a a a 5 5 . . 
-. . . 2 2 2 . a a d d a a 5 . . 
-. . 2 2 4 2 a a d c c d a a . . 
-. 2 2 4 4 5 d d c d d c d d a . 
-2 2 4 4 5 5 c c d a a d b b b c 
-. 2 2 4 4 5 d d c d d c d d a . 
-. . 2 2 4 2 a a d c c d a a . . 
-. . . 2 2 2 . a a d d a a 5 . . 
-. . . . 2 . . c a a a a 5 5 . . 
-. . . . . . . c c a a c 5 . . . 
-. . . . . . . . c c a a . . . . 
-. . . . . . . . . . 5 a a . . . 
-. . . . . . . . . . . . . . . . 
-`;
             case "image5":
             case "DeathMeteorSpriteOne":return img`
 . . . . . . . . . . . . . . . . 
@@ -202,30 +183,56 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 . . . . . . . . . . . . . . 4 4 
 . . . . . . . . . . . . . . . . 
 `;
+            case "image1":
+            case "StarshipSpriteOne":return img`
+....................
+....................
+............5aa.....
+..........ccaa......
+.........ccaac5.....
+......2..caaaa55....
+.....222.aaddaa5....
+....2242aadccdaa....
+...22445ddcddcdda...
+..224455ccdaadbbbc..
+...22445ddcddcdda...
+....2242aadccdaa....
+.....222.aaddaa5....
+......2..caaaa55....
+.........ccaac5.....
+..........ccaa......
+............5aa.....
+....................
+....................
+`;
             case "image2":
             case "MissileSpriteOne":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . a . . . . 
-. . . . . . . . . . a 1 a . . . 
-. . . . . . . . a a a a 1 a . . 
-. . . a a a a a a a a a a a a . 
-. . . c c c c c a a a a a a c . 
-. . . . . . . . c c a a a c . . 
-. . . . . . . . . . c a c . . . 
-. . . . . . . . . . . c . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . 
+. . . . . . . . . . . . . 
+. . . . . . . 2 . . . . . 
+. 1 1 1 . 4 2 2 2 . . . . 
+1 . . . 1 5 4 4 2 2 . . . 
+. . 1 . 5 5 5 4 4 2 2 . . 
+1 1 . 1 5 4 4 4 2 2 2 2 2 
+. . 1 . 5 5 5 4 4 2 2 . . 
+1 1 1 . . 5 4 4 2 2 . . . 
+. . . 1 . 4 2 2 2 . . . . 
+. 1 1 1 . . . 2 . . . . . 
+. . . . . . . . . . . . . 
+. . . . . . . . . . . . . 
 `;
         }
         return null;
     })
 
     helpers._registerFactory("animation", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+
+        }
+        return null;
+    })
+
+    helpers._registerFactory("song", function(name: string) {
         switch(helpers.stringTrim(name)) {
 
         }
