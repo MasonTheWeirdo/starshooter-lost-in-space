@@ -43,7 +43,7 @@ let MissileCooldown = 0
 color.setColor(14, color.rgb(168, 50, 157))
 info.setLife(3)
 scene.setBackgroundImage(assets.image`GalaxyBackgroundOne`)
-game.showLongText("AVOID AND SHOOT THE METEORS TO WIN", DialogLayout.Center)
+game.showLongText("AVOID AND DESTROY THE METEORS", DialogLayout.Center)
 createShip()
 let MeteorSpeed = -100
 MissileCooldown = 850
